@@ -18,7 +18,7 @@ const appState = {
   currentCategory: ''
 }
 
-export const reducer = (state, action) => {
+export const reducer = (state = appState, action) => {
   switch (action.type) {
     case UPDATE_PRODUCTS:
       return {
@@ -91,7 +91,3 @@ export const reducer = (state, action) => {
       return state;
   }
 };
-
-// export function useProductReducer(initialState) {
-//   return useReducer(reducer, initialState)
-// }
