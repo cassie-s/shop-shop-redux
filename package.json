@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/cassie-s/shop-shop-redux/issues"
   },
-  "homepage": "https://github.com/cassie-s/shop-shop-redux#readme"
+  "homepage": "https://github.com/cassie-s/shop-shop-redux#readme",
+  "dependencies": {
+    "redux": "^4.1.2"
+  }
 }
